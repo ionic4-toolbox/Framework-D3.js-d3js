@@ -5,6 +5,7 @@ import { MyApp } from './app.component';
 
 import { BarChartPage } from '../pages/bar-chart/bar-chart';
 import { PieChartPage } from '../pages/pie-chart/pie-chart';
+import { GaugePage } from '../pages/gauge/gauge';
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -15,6 +16,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     BarChartPage,
     PieChartPage,
+    GaugePage,
     TabsPage
   ],
   imports: [
@@ -26,6 +28,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     BarChartPage,
     PieChartPage,
+    GaugePage,
     TabsPage
   ],
   providers: [
